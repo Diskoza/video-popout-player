@@ -28,7 +28,7 @@ if (videoId) {
     loading.style.display = 'none';
   });
 
-  document.title = 'YouTube Pop-Out Player';
+  document.title = 'Video Pop-Out Player';
 
   // Open on YouTube.
   openBtn.addEventListener('click', function () {
@@ -37,9 +37,9 @@ if (videoId) {
 
   // PiP hint.
   pipBtn.addEventListener('click', function () {
-    alert('Нажмите правую кнопку мыши на видео дважды → «Картинка в картинке»');
+    alert('Right-click the video twice, then choose Picture in Picture.');
   });
 
 } else {
-  loading.innerHTML = '<p style="color:#f44">Видео не найдено</p>';
+  loading.innerHTML = '<p style="color:#f44">Video not found</p>';
 }

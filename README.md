@@ -25,7 +25,14 @@ Chrome extension for starting stable Picture-in-Picture on YouTube, Twitch, and 
 - HTML overlays from other extensions, such as skip notices, do not appear in stable PiP.
 - Some sites may block PiP or hide video inside protected players.
 
+## Permissions
+
+- `http://*/*` and `https://*/*`: detect videos on different websites.
+- `activeTab`: work with the current tab from the popup.
+- `scripting`: detect videos and start PiP from the popup.
+- `tabs`: read the current tab URL and title.
+- `windows`: open a fallback popup window if PiP is blocked.
+
 ## Author
 
 Created by DiskoZawr: https://github.com/Diskoza
-
